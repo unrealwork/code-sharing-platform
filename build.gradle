@@ -11,7 +11,22 @@ repositories {
     mavenCentral()
 }
 
-sourceSets.main.resources.srcDirs = ["src/resources"]
+
+sourceSets {
+    main {
+        resources {
+            srcDir 'src/resources'
+        }
+        java {
+            srcDirs 'src'
+        }
+    }
+    test {
+        java {
+            srcDir 'test'
+        }
+    }
+}
 
 dependencies {
     // Core
