@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create</title>
+    <link rel="stylesheet" href="/css/mini-default.min.css">
+    <script defer src="/js/api.js"></script>
+    <script defer src="/js/code-new.js"></script>
+    <style>
+        .responsive-label {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-offset-3 col-sm-12 col-md-6">
+            <form>
+                <fieldset>
+                    <legend>Code</legend>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <textarea id="code_snippet" style="width: 100%; min-height: 15em"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Restrictions</legend>
+                    <div class="row responsive-label">
+                        <div class="col-md-6">
+                            <div class="row responsive-label">
+                                <div class="col-sm-12 col-md-3">
+                                    <label for="views_restriction">Views</label>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <input id="views_restriction" type="text"/>
+                                </div>
+                            </div>
+                            <div class="row responsive-label">
+                                <div class="col-sm-12 col-md-3">
+                                    <label for="time_restriction">Time</label>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <input id="time_restriction" type="text"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="row">
+                    <button class="primary" id="send_snippet" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
