@@ -8,3 +8,8 @@ You will get acquainted with server development on Spring Boot and touch on some
  * HTML 
  * CSS 
  * JS
+
+
+### Jetbrains Academy Page
+
+[Code Sharing Platform](https://hyperskill.org/projects/130?track=12)
